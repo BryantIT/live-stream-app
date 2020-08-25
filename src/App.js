@@ -9,12 +9,14 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <ReactPlayer
-          url={ streamUrl }
-          width="100%"
-          height="100%"
-
-        />
+        <div style={{ width: 900 }}>
+          <ReactPlayer
+            url={ streamUrl }
+            width="100%"
+            height="100%"
+            playing
+            />
+        </div>
       </header>
     </div>
   );
