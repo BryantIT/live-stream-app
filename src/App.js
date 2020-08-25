@@ -9,7 +9,7 @@ import { createComment as CreateComment } from './graphql/mutations';
 import { listComments as ListComments } from './graphql/queries';
 import { onCreateComment as OnCreateComment } from './graphql/subscriptions';
 
-const streamUrl = 'https://005d29004143.us-east-1.playback.live-video.net/api/video/v1/us-east-1.145578094312.channel.5f2F9HglcLaM.m3u8'
+const streamUrl = 'YOUR-STREAM-URL'
 
 function Router() {
   return (
